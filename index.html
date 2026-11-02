@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Umrah Guide: Every Step Tracker</title>
+    <meta name="description"
+        content="Privacy Policy & Compliance Documentation for Umrah Guide: Every Step Tracker mobile application. 100% offline, zero data collection.">
+    <meta name="theme-color" content="#124C3A">
+    <style>
+        :root {
+            --primary-emerald: #124C3A;
+            --deep-emerald: #0B3529;
+            --soft-sage: #E8EFE7;
+            --warm-ivory: #F8F5EC;
+            --muted-gold: #C6A66B;
+            --charcoal: #242D29;
+            --muted-grey: #68726D;
+            --card-bg: #FFFFFF;
+            --border-color: #E2E8E5;
+            --success-green: #15803D;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.65;
+            color: var(--charcoal);
+            background-color: var(--warm-ivory);
+            padding: 0;
+            margin: 0;
+        }
+
+        .header-banner {
+            background: linear-gradient(135deg, var(--deep-emerald) 0%, var(--primary-emerald) 100%);
+            color: #FFFFFF;
+            padding: 50px 20px 40px;
+            text-align: center;
+            border-bottom: 4px solid var(--muted-gold);
+        }
+
+        .app-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+        }
+
+        .header-banner h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .header-banner p {
+            font-size: 1.1rem;
+            color: var(--soft-sage);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: -25px auto 50px;
+            padding: 0 20px;
+        }
+
+        .meta-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 16px rgba(18, 76, 58, 0.06);
+            margin-bottom: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+        }
+
+        .meta-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .meta-label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--muted-grey);
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .meta-value {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--deep-emerald);
+        }
+
+        .badges-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 12px;
+            margin-bottom: 32px;
+        }
+
+        .badge-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 16px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .badge-icon {
+            font-size: 1.5rem;
+        }
+
+        .badge-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--primary-emerald);
+        }
+
+        .badge-desc {
+            font-size: 0.8rem;
+            color: var(--muted-grey);
+        }
+
+        .content-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 4px 16px rgba(18, 76, 58, 0.06);
+        }
+
+        .content-card h2 {
+            font-size: 1.4rem;
+            color: var(--primary-emerald);
+            margin-top: 36px;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--soft-sage);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .content-card h2:first-of-type {
+            margin-top: 0;
+        }
+
+        .content-card h3 {
+            font-size: 1.1rem;
+            color: var(--deep-emerald);
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+
+        .content-card p {
+            margin-bottom: 16px;
+            color: #333F39;
+        }
+
+        .content-card ul {
+            margin-bottom: 16px;
+            padding-left: 24px;
+            color: #333F39;
+        }
+
+        .content-card li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background: var(--soft-sage);
+            border-left: 4px solid var(--primary-emerald);
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+            font-size: 0.95rem;
+            color: var(--deep-emerald);
+        }
+
+        .highlight-box strong {
+            color: var(--primary-emerald);
+        }
+
+        .contact-card {
+            background: #F1F6F3;
+            border: 1px dashed var(--primary-emerald);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 24px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 0.85rem;
+            color: var(--muted-grey);
+            border-top: 1px solid var(--border-color);
+            background: var(--card-bg);
+        }
+
+        footer a {
+            color: var(--primary-emerald);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            .header-banner {
+                padding: 36px 16px 30px;
+            }
+
+            .header-banner h1 {
+                font-size: 1.7rem;
+            }
+
+            .content-card {
+                padding: 24px 18px;
+            }
+
+            .meta-card {
+                padding: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header-banner">
+        <div class="app-badge">Official Compliance Document</div>
+        <h1>Privacy Policy</h1>
+        <p>Umrah Guide: Every Step Tracker</p>
+    </header>
+
+    <main class="container">
+        <div class="meta-card">
+            <div class="meta-item">
+                <span class="meta-label">Application Name</span>
+                <span class="meta-value">Umrah Guide: Every Step Tracker</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">Android Package ID</span>
+                <span class="meta-value">com.umrahguide.everysteptracker</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">Policy Effective Date</span>
+                <span class="meta-value">November 2026</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">Architecture</span>
+                <span class="meta-value">100% Offline (Zero Backend)</span>
+            </div>
+        </div>
+
+        <div class="badges-grid">
+            <div class="badge-card">
+                <span class="badge-icon">🔒</span>
+                <span class="badge-title">Zero Data Collection</span>
+                <span class="badge-desc">No personal data is collected or transmitted.</span>
+            </div>
+            <div class="badge-card">
+                <span class="badge-icon">🚫</span>
+                <span class="badge-title">Zero Ads</span>
+                <span class="badge-desc">No advertisements, sponsors, or tracking SDKs.</span>
+            </div>
+            <div class="badge-card">
+                <span class="badge-icon">📶</span>
+                <span class="badge-title">100% Offline</span>
+                <span class="badge-desc">Fully functional without an internet connection.</span>
+            </div>
+            <div class="badge-card">
+                <span class="badge-icon">🛡️</span>
+                <span class="badge-title">Zero Permissions</span>
+                <span class="badge-desc">No sensitive Android permissions required.</span>
+            </div>
+        </div>
+
+        <article class="content-card">
+            <h2>Introduction & Overview</h2>
+            <p>
+                <strong>Umrah Guide: Every Step Tracker</strong> ("the App", "we", "our") is designed as a focused,
+                respectful,
+                and privacy-first digital companion for pilgrims performing Umrah. We believe that spiritual journeys
+                require
+                peace of mind and complete digital privacy.
+            </p>
+            <p>
+                This Privacy Policy describes our practices regarding information collection, storage, and user privacy
+                in full
+                compliance with the <strong>Google Play Developer Distribution Agreement</strong> and <strong>Google
+                    Play User
+                    Data Policies</strong>.
+            </p>
+
+            <div class="highlight-box">
+                <strong>Key Summary:</strong> The App does not collect, store, transmit, monetize, or share any personal
+                identifiable information (PII) or device data. All guidance, counters, checklists, and audio files
+                operate
+                locally on your device.
+            </div>
+
+            <h2>1. Information Collection and Use</h2>
+            <p>
+                We do not collect any personal information whatsoever when you download, install, or use the App:
+            </p>
+            <ul>
+                <li><strong>No Account Creation:</strong> You do not need to register, provide an email address, phone
+                    number,
+                    name, or password.</li>
+                <li><strong>No Telemetry or Analytics:</strong> We do not integrate Firebase Analytics, Google
+                    Analytics,
+                    Mixpanel, Sentry, or any third-party tracking or diagnostic SDKs.</li>
+                <li><strong>No Advertising Identifiers:</strong> We do not collect or request the Google Advertising ID
+                    (AAID)
+                    or hardware identifiers (IMEI, MAC address).</li>
+                <li><strong>No Network Transmission:</strong> The App does not connect to external servers, APIs, or
+                    cloud
+                    backends. All Dua datasets, transliterations, translations, checklists, and audio clips are bundled
+                    directly
+                    inside the local application binary.</li>
+            </ul>
+
+            <h2>2. Local Device Storage & Persistence</h2>
+            <p>
+                To ensure a seamless user experience, the App stores lightweight user progress locally on your device
+                using
+                standard mobile storage (React Native <code>AsyncStorage</code>). This local data includes:
+            </p>
+            <ul>
+                <li>Checklist item toggles (packed / unpacked preparation items).</li>
+                <li>Current journey stage (Preparation, Ihram, Tawaf, Sa'i, Halq/Taqsir).</li>
+                <li>Interactive Tawaf round counts (0 to 7) and Sa'i lap counts (0 to 7).</li>
+                <li>User interface preferences (selected language: English, Bengali, or Arabic; selected font size).
+                </li>
+            </ul>
+            <p>
+                <strong>Data Ownership & Reset:</strong> This data remains strictly in your device's private sandboxed
+                storage
+                space and is never synchronized with any remote server. You can permanently wipe this data at any time
+                by
+                tapping <em>"Reset Journey Data"</em> in the Settings screen, or by clearing app storage / uninstalling
+                the app
+                via your device settings.
+            </p>
+
+            <h2>3. Device Permissions & Hardware Access</h2>
+            <p>
+                The App declares and requests <strong>zero sensitive Android permissions</strong> in its manifest:
+            </p>
+            <ul>
+                <li>No Location access (GPS or network coarse location).</li>
+                <li>No Camera or Photo Library access.</li>
+                <li>No Microphone or Audio Recording access.</li>
+                <li>No Contacts, SMS, or Phone State access.</li>
+                <li>No External Storage access.</li>
+            </ul>
+
+            <h2>4. Third-Party Services and Libraries</h2>
+            <p>
+                The App is built with React Native and Expo. It contains zero third-party advertising SDKs, social media
+                plugins, or monetization partners. All open-source packages utilized are strictly for client-side
+                rendering,
+                navigation, and local audio playback (<code>expo-av</code>).
+            </p>
+
+            <h2>5. Children's Online Privacy (COPPA & GDPR-K Compliance)</h2>
+            <p>
+                The App does not knowingly collect, request, or solicit any personal information from children under the
+                age of
+                13 (or under the age of 16 in the European Economic Area). Because the App collects no user data
+                whatsoever, it
+                is fully safe for individuals and families of all ages.
+            </p>
+
+            <h2>6. Security and Integrity</h2>
+            <p>
+                Because we do not transmit or host your data on external servers, your information is protected by your
+                device's
+                native operating system security sandbox. We recommend keeping your Android OS updated and utilizing
+                standard
+                device passcode / biometric lock protection.
+            </p>
+
+            <h2>7. Google Play Data Safety Declaration Summary</h2>
+            <p>
+                For transparency with the Google Play Store Data Safety section:
+            </p>
+            <ul>
+                <li><strong>Data Collected:</strong> None.</li>
+                <li><strong>Data Shared with Third Parties:</strong> None.</li>
+                <li><strong>Data Encrypted in Transit:</strong> N/A (no network transit).</li>
+                <li><strong>Account Deletion Mechanism:</strong> N/A (no accounts exist; user can reset all local data
+                    at any
+                    time within the app).</li>
+            </ul>
+
+            <h2>8. Changes to this Privacy Policy</h2>
+            <p>
+                We may update our Privacy Policy from time to time to reflect future app enhancements or regulatory
+                policy
+                updates. Any modifications will be posted to this page with an updated "Last Modified" timestamp.
+            </p>
+
+            <h2>9. Contact Us</h2>
+            <p>
+                If you have any questions, feedback, or concerns regarding this Privacy Policy or the practices of
+                <strong>Umrah
+                    Guide: Every Step Tracker</strong>, please contact the developer:
+            </p>
+            <div class="contact-card">
+                <p><strong>App Support & Developer Contact</strong></p>
+                <p>Application: <strong>Umrah Guide: Every Step Tracker</strong></p>
+                <p>Package ID: <code>com.umrahguide.everysteptracker</code></p>
+                <p>Support Email: <a href="mailto:naeemul.dev@gmail.com">naeemul.dev@gmail.com</a></p>
+                <!-- p>Website / Repository: <a href="https://github.com" target="_blank" rel="noopener">GitHub Project
+                        Repository</a></p> -->
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Umrah Guide: Every Step Tracker. All rights reserved.</p>
+        <p>A private, offline companion for pilgrims worldwide.</p>
+    </footer>
+
+</body>
+
+</html>
